@@ -68,8 +68,8 @@ fun PersonListScreen() {
                 )
                 Spacer(modifier = Modifier.width(8.dp))
                 TextField(
-                    value = viewmodel.lastName, onValueChange =
-                    viewmodel::onLastNameChange,
+                    value = viewmodel.lastName,
+                    onValueChange = viewmodel::onLastNameChange,
                     placeholder = {
                         Text(text = "Last name")
                     },
