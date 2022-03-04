@@ -1,4 +1,4 @@
-package xyz.teamgravity.sqldelight.ui.theme
+package xyz.teamgravity.sqldelight.presentation.theme
 
 import androidx.compose.material.Typography
 import androidx.compose.ui.text.TextStyle
