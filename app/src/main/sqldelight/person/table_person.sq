@@ -1,0 +1,23 @@
+CREATE TABLE table_person (
+    id INTEGER NOT NULL PRIMARY KEY,
+    firstName TEXT NOT NULL,
+    lastName TEXT NOT NULL
+);
+
+getPerson:
+SELECT *
+FROM table_person
+WHERE id = :id;
+
+getAllPerson:
+SELECT *
+FROM table_person;
+
+insertPerson:
+INSERT OR REPLACE
+INTO table_person
+VALUES(?, ?, ?);
+
+deletePerson:
+DELETE FROM table_person
+WHERE id = :id;
