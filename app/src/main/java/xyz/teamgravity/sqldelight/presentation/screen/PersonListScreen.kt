@@ -114,7 +114,7 @@ fun PersonCard(
             .clickable {
                 onPersonClick(person.id!!)
             },
-        horizontalArrangement = Arrangement.Center,
+        horizontalArrangement = Arrangement.SpaceBetween,
         verticalAlignment = Alignment.CenterVertically
     ) {
         Text(

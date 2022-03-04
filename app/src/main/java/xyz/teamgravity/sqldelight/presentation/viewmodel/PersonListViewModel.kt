@@ -39,6 +39,9 @@ class PersonListViewModel @Inject constructor(
                     lastName = lastName
                 )
             )
+
+            firstName = ""
+            lastName = ""
         }
     }
 
