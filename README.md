@@ -1,9 +1,10 @@
 # sql-delight
+
+<img align="right" width="296" height="576"  src="https://github.com/raheemadamboev/sql-delight/blob/master/banner.gif" />
+
 Simple application that you can add, update, delete information about people. UI is built by Jetpack Compose and MVVM architectural pattern is applied. All the data is stored in SQL Delight database and it is read with the help of Kotlin Coroutines and Kotlin Flow. Dependencies are injected with the help of Dagger Hilt. Screens are navigated using Jetpack Navigation Compose.
 
 **SQL Delight**
-
-<img align="right" width="296" height="576"  src="https://github.com/raheemadamboev/sql-delight/blob/master/banner.gif" />
 
 <a href="https://github.com/raheemadamboev/sql-delight/blob/master/app-debug.apk">Download demo</a>
 
