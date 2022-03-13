@@ -3,7 +3,7 @@ Simple application that you can add, update, delete information about people. UI
 
 **SQL Delight**
 
-<img src="" />
+<img align="right" width="296" height="576"  src="https://github.com/raheemadamboev/sql-delight/blob/master/banner.gif" />
 
 <a href="https://github.com/raheemadamboev/sql-delight/blob/master/app-debug.apk">Download demo</a>
 
